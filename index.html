@@ -1,0 +1,650 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Saccon</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="application-name" content="Saccon">
+	<meta name="msapplication-TileImage" content="images/logo.svg">
+	<link rel="icon" type="image/svg" href="images/logo.svg">
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<div class="loaderArea">
+		<div class="load">
+			<div class="loader-box">
+				<div class="loader"></div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<header>
+			<div class="container nav-header-container">
+				<div class="navbar-logo">
+					<a href="#">
+						<img src="images/logo.svg" alt="" class="navbar-logo-img">
+					</a>
+				</div>
+				<nav>
+					<div class="nav-bar-top">
+						<div class="nav-bar">
+							<div class="navbar-slogan">
+								<p class="navbar-slogan-text">Gli specialisti del pneumatico dal 1948</p>
+							</div>
+							<div class="navbar-language">
+								<ul class="language-list">
+									<li class="active-language language-item">
+										<a href="" class="navbar-language-link">
+											<img class="navbar-language-icon" src="images/lang/italy.svg" alt="">
+											<p class="language-name">Italiano</p>
+										</a>
+									</li>
+									<li class="language-item">
+										<a href="" class="navbar-language-link">
+											<img class="navbar-language-icon" src="images/lang/uk.svg" alt="">
+											<p class="language-name">English</p>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="nav-bar-main">
+						<button class="mob-nav-btn"></button>
+						<ul class="nav-bar nav-bar-menu">
+							<li class="menu-primary">
+								<ul class="menu-items site-menu">
+									<li>
+										<a href="#categories">Categorie</a>
+									</li>
+									<li>
+										<a href="#login">Marche</a>
+									</li>
+									<li>
+										<a href="#promotions">Promozioni</a>
+									</li>
+									<li>
+										<a href="#contact">Contatti</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-secondary">
+								<ul class="menu-items profile-menu">
+									<li class="profile-menu">
+										<a href="">
+											<span class="profile-ico icon-cart"></span>
+											<p class="nav-shop-cart">(0)</p>
+										</a>
+									</li>
+									<li class="profile-menu">
+										<a href="">
+											<span class="profile-ico icon-user"></span>
+											<p>Accedi</p>
+										</a>
+									</li>
+									<li class="profile-menu">
+										<a href="">
+											<span class="icon-search"></span>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section class="section-intro">
+				<div class="intro-slider">
+					<div class="intro-slide slide1">
+						<div class="intro-slide-text">
+							<div class="slide-text-wrap">
+								<div class="container">
+									<h1 class="intro-title">Welcome to Saccon Web-shop!</h1>
+									<p class="intro-message">Grazie alla nostra collaborazione con le principali case produttrici e alla nostra rete di collaboratori possiamo
+										fornire ai nostri clienti una vasta gamma di prodotti.</p>
+									<a href="" class="btn btn-link">Vedi il nostro catalogo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="intro-slide slide2">
+						<div class="intro-slide-text">
+							<div class="slide-text-wrap">
+								<div class="container">
+									<h1 class="intro-title">Welcome to Saccon Web-shop!</h1>
+									<p class="intro-message">Grazie alla nostra collaborazione con le principali case produttrici e alla nostra rete di collaboratori possiamo
+										fornire ai nostri clienti una vasta gamma di prodotti.</p>
+									<a href="" class="btn btn-link">Vedi il nostro catalogo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="categories" class="categories-section">
+				<div class="container">
+					<h2 class="dark-title">Le nostre marche </h2>
+					<button id="mobCategoriesNav" class="mob-categories-btn"></button>
+					<ul class="categories-nav" id="categoriesNavTab" role="tablist">
+						<li class="categories-nav-item active">
+							<a class="categories-nav-link" data-toggle="pill" href="#tab-ctgr1">
+								<!--<object class="categories-ico" type="image/svg+xml" data="images/truck1.svg"></object>-->
+								<span class="categories-ico icon-truck1"></span>
+								<span>Camion</span>
+							</a>
+						</li>
+						<li class="categories-nav-item">
+							<a class="categories-nav-link" data-toggle="pill" href="#tab-ctgr2">
+								<span class="categories-ico icon-truck2"></span> <span>Gomme terra</span>
+							</a>
+						</li>
+						<li class="categories-nav-item">
+							<a class="categories-nav-link" data-toggle="pill" href="#tab-ctgr3">
+								<span class="categories-ico icon-truck3"></span> <span>Carrello</span>
+							</a>
+						</li>
+						<li class="categories-nav-item">
+							<a class="categories-nav-link" data-toggle="pill" href="#tab-ctgr4">
+								<span class="categories-ico icon-truck4"></span> <span>Agricoltura</span>
+							</a>
+						</li>
+						<li class="categories-nav-item">
+							<a class="categories-nav-link" data-toggle="pill" href="#tab-ctgr5">
+								<span class="categories-ico icon-truck5"></span> <span>Construction</span>
+							</a>
+						</li>
+					</ul>
+					<div class="cotegories-content">
+						<div class="about-brands-content">
+							<p class="about-brands-text">PCCOLA DESCRIZIONE PER CATEGORIA CONSTRUCTION.</p>
+							<p class="about-brands-text">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+								aliquam erat volutpat. Ut wisi enim ad minim veniam, quis Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+								sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+								quis
+							</p>
+						</div>
+						<div class="categories-tab-content" id="CategoriesTabContent">
+							<div class="categories-tab-pane fade active" id="tab-ctgr1">
+								<ul class="brands-list">
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-goodyear.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-barum.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-michelin.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-continental.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-vredestein.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-accelera.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-firestone.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-nokian.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-ceat.jpg" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-hankook.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-bridgestone.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-dunlop.jpg" alt=""></a>
+									</li>
+								</ul>
+							</div>
+							<div class="categories-tab-pane fade" id="tab-ctgr2">
+								<ul class="brands-list">
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-barum.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-goodyear.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-michelin.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-continental.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-vredestein.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-accelera.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-firestone.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-nokian.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-ceat.jpg" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-hankook.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-bridgestone.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-dunlop.jpg" alt=""></a>
+									</li>
+								</ul>
+							</div>
+							<div class="categories-tab-pane fade" id="tab-ctgr3">
+								<ul class="brands-list">
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-goodyear.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-barum.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-michelin.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-continental.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-vredestein.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-accelera.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-firestone.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-nokian.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-ceat.jpg" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-hankook.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-bridgestone.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-dunlop.jpg" alt=""></a>
+									</li>
+								</ul>
+							</div>
+							<div class="categories-tab-pane fade" id="tab-ctgr4">
+								<ul class="brands-list">
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-goodyear.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-barum.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-michelin.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-continental.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-vredestein.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-accelera.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-firestone.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-nokian.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-ceat.jpg" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-hankook.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-bridgestone.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-dunlop.jpg" alt=""></a>
+									</li>
+								</ul>
+							</div>
+							<div class="categories-tab-pane fade" id="tab-ctgr5">
+								<ul class="brands-list">
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-goodyear.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-barum.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-michelin.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-continental.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-vredestein.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-accelera.png" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-firestone.jpg" alt=""></a>
+									</li>
+
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-nokian.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-ceat.jpg" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-hankook.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-bridgestone.png" alt=""></a>
+									</li>
+									<li class="brands-item">
+										<a href=""><img src="images/brands/camion/brand-logo-dunlop.jpg" alt=""></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<a href="" class="btn btn-link">Visualizzare tutte le marche</a>
+				</div>
+			</section>
+			<section id="login" class="login-section">
+				<div class="container login-container">
+					<div class="login-area">
+						<div class="login-description">
+							<span class="login-ico icon-user"></span>
+							<p class="access-title">Accedi</p>
+							<p class="login-desc-info">Per controllare i prezzi e disponibilità in magazzino
+							</p>
+						</div>
+						<form action="lofin-form" id="signInForm" class="sign-in-form">
+							<input type="email" class="input-field" placeholder="E-mail / Codice cliente" required>
+							<input type="password" class="input-field" placeholder="Password" required>
+							<button type="submit" class="btn btn-login">Accedi</button>
+						</form>
+						<div class="login-role-area">
+							<p class="login-desc-info">Non sei ancora nostro cliente?</p>
+							<div class="btn-group">
+								<a href="" class="btn-role">Registrati</a>
+								<a href="" class="btn-role">Continua come ospite</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="promotions" class="promotions-section">
+				<div class="container">
+					<h2 class="light-title">Promozioni &#047; Best sellers</h2>
+					<ul class="promotions-list">
+						<li>
+							<a href="">
+								<figure class="promotions-preview">
+									<figcaption>
+										<p class="promo-title">Promo stagione invernale invernale
+										</p>
+										<p class="promo-text">Valida dal 27.09 al 31.12.2017</p>
+									</figcaption>
+									<div class="promo-img-wrap">
+										<img src="images/promo1.jpg" alt="Promo">
+										<span class="action-mark"><small>Gomme</small> Dumper<br>15%</span>
+									</div>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<figure class="promotions-preview">
+									<figcaption>
+										<p class="promo-title">Offerta speciale</p>
+										<p class="promo-text">Dal 15 marzo al 31 maggio acquista un treno di pneumatici estivi Continental a partire da 16 pollici: per te la
+											giacca impermeabile adidas.</p>
+									</figcaption>
+									<div class="promo-img-wrap">
+										<img src="images/promo2.jpg" alt="Promo">
+									</div>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<figure class="promotions-preview">
+									<div class="promo-img-wrap promo-img-full">
+										<img src="images/promo3.jpg" alt="Promo">
+									</div>
+								</figure>
+							</a>
+						</li>
+					</ul>
+					<div class="button-container">
+						<a href="" class="btn btn-link">Vedi tutte le promozioni</a>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="about-section">
+				<div class="container">
+					<h2 class="light-title">Chi siamo</h2>
+					<div class="about-content">
+						<p>Ogni storia può essere raccontata da molti punti di vista e arricchita a non finire.</p>
+						<p>I Promessi Sposi potrebbero essere riassunti con un semplice &#8220; due ragazzi lombardi si sposano &#8221;. Eppure
+							ci perderemo, in questo modo, molti significati e chiavi di lettura che hanno segnato l’immaginario della nostra società.</p>
+						<p>Allo stesso modo, noi potremmo definirci come “Una PMI del nord est”, ma staremmo veramente descrivendoci? La Saccon
+							Gomme è un agglomerato di vicende personali e di relazioni che la rendono, prima ancora che un’azienda, una famiglia.</p>
+						<p>Non solo perché la leadership è familiare o perché molti membri di questa ne fanno parte , ma perché diverse famiglie
+							si sono passate il testimone di generazione in generazione, sentendosi parte di una comunità prima che di una azienda.</p>
+						<p>Ci aiutiamo, ci confrontiamo, ci arrabbiamo, ci prendiamo in giro e ci guardiamo sempre le spalle sapendo che nessuno
+							è mai lasciato indietro: non è forse quello che succede tra le mura di&nbsp; una casa?</p>
+						<p>Come tutte le famiglie, funzioniamo grazie a meccanismi che non possono essere tradotti in parole; la nostra cultura,
+							i nostri valori sono elencabili, ma il modo in cui ognuno di noi li ha fatti propri, quello è inesprimibile.</p>
+						<p>Siamo felici di presentarvi la nostra casa, di raccontarvi chi siamo e come siamo arrivati fin qui e di scoprire insieme
+							dove ci sta portando il futuro.</p>
+						<p>Siamo parte di una comunità in cui crediamo fortemente e che sosteniamo con tutte le nostre capacità:</p>
+						<p>grazie a chi è stato con noi fin dal principio, chi è cresciuto tra queste mura, chi ci sorprende ogni giorno, chi
+							ci sceglie e chi crede in noi.</p>
+						<div class="about-slogan">
+							<p>Senza di voi, niente sarebbe stato possibile.</p>
+							<p class="special-text">Con tutto il nostro cuore,</p>
+							<p>Ennio, Cristiano, Maddalena e tutta la famiglia Saccon Gomme</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="advantages" class="advantages-section">
+				<div class="container">
+					<h2 class="dark-title">Vantaggi</h2>
+					<ul class="advantages-list">
+						<li class="advantages-item">
+							<figure class="advantages-thumb">
+								<span class="advantages-ico icon-tire"></span>
+								<figcaption>
+									<h4 class="advantages-title">Specialisti del pneumatico dal 1948</h4>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+										magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis </p>
+								</figcaption>
+							</figure>
+						</li>
+						<li class="advantages-item">
+
+							<figure class="advantages-thumb">
+								<span class="advantages-ico icon-service"></span>
+								<figcaption>
+									<h4 class="advantages-title">Assistenza sul campo</h4>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+									</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li class="advantages-item">
+							<figure class="advantages-thumb">
+								<span class="advantages-ico icon-park"></span>
+								<figcaption>
+									<h4 class="advantages-title">Flotte aziendali</h4>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+										magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis </p>
+								</figcaption>
+							</figure>
+						</li>
+
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div id="contact" class="footer-menu">
+				<div class="container">
+					<ul class="footer-wrap">
+						<li class="footer-menu-category">
+							<h5 class="categor-title">Categorie</h5>
+							<ul class="footer-menu-item">
+								<li>
+									<a href="">Camion</a>
+								</li>
+								<li>
+									<a href="">Gomme terra</a>
+								</li>
+								<li>
+									<a href="">Carrello</a>
+								</li>
+								<li>
+									<a href="">Agricoltura</a>
+								</li>
+								<li>
+									<a href="">Construction</a>
+								</li>
+							</ul>
+						</li>
+						<li class="footer-menu-category">
+							<h5 class="categor-title">Altri contenuti</h5>
+							<ul class="footer-menu-item">
+								<li>
+									<a href="">Gruppo Saccon Gomme</a>
+								</li>
+								<li>
+									<a href="">Promozioni</a>
+								</li>
+								<li>
+									<a href="">Marche</a>
+								</li>
+							</ul>
+						</li>
+						<li class="footer-menu-category">
+							<h5 class="categor-title">Contatti</h5>
+							<ul class="footer-menu-item">
+								<li>
+									<p>31010 Ponte della Priula (TV) Italy</p>
+									<p>Via IV Novembre, 95</p>
+								</li>
+								<li>
+									<p><a href="tel:+39.0438.759658">+39.0438.759658</a></p>
+									<p><a href="tel:+39.0438.758540">+39.0438.758540</a></p>
+								</li>
+								<li>
+									<a href="mailto:info@saccongomme.it">info@saccongomme.it</a>
+								</li>
+							</ul>
+						</li>
+						<li class="footer-menu-category">
+							<h5 class="categor-title">Social</h5>
+							<ul class="footer-menu-item">
+								<li>
+									<a href="">Logo</a>
+								</li>
+								<li>
+									<a href="">Logo</a>
+								</li>
+								<li>
+									<a href="">Logo</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="sub-footer">
+				<div class="container">
+					<div class="footer-wrap">
+						<div class="copyright">
+							<p>© 2017 Saccon Gomme Spa</p>
+						</div>
+						<div class="terms">
+							<a href="">Termini e condizioni</a>
+							<a href="">Informativa privacy</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
