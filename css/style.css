@@ -836,6 +836,7 @@ h1, figure, fieldset {
 
 input, select, textarea {
   -webkit-appearance: none;
+  border-radius: 0;
 }
 input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
   outline: 0;
@@ -963,6 +964,10 @@ header {
             animation: fadeInOutMenuTop .3s ease-in-out both;
   }
   .fixed-header .nav-bar-main {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     -webkit-animation: fadeInOutMenuMain .3s ease-in-out both;
             animation: fadeInOutMenuMain .3s ease-in-out both;
   }
