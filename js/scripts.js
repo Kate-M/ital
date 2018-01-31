@@ -86,7 +86,7 @@ $(window).on('load', function () {
         $preloader.delay(350).fadeOut('slow');
 });
 /*Animation scroll in a page*/
-$(".site-menu").on('click', 'a', function (event) {
+$(".link-local").on('click', function (event) {
     event.preventDefault();
     var id = $(this).attr('href');
     var top = $(id).offset().top-140;
@@ -102,10 +102,11 @@ $(".nav-btn-close,.menu-item-link").on('click', function () {
     $('body').removeClass('overlay');
 });
 
-/*For footer submenu*/
-// $(".categor-title").on('click', function () {
-//     $(this).parent().toggleClass('opened-footer-menu');
-// });
+/*For filter drop*/
+$(".filter-title-action").on('click', function () {
+    $(this).next().slideToggle(300);
+    $(this).parent().toggleClass('open-filter');
+});
 
 // (function () {
     
@@ -127,7 +128,7 @@ $(".categories-nav-link").on('click', function () {
 });
 $(".categories-nav-link").on('click', function (event) {
     var bgOrder =  $(this).data('bg-order');
-    var bgg = $("#introBackgroung").removeClass().addClass("bg-categories bg-ctgr" + bgOrder);
+    $("#introBackgroung").removeClass().addClass("bg-categories bg-ctgr" + bgOrder,5000);
 });
 
 /*Select categories for mobile*/

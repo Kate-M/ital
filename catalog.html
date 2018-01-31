@@ -1,0 +1,456 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Saccon</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="application-name" content="Saccon">
+	<meta name="msapplication-TileImage" content="images/logo.svg">
+	<link rel="icon" type="image/svg" href="images/logo.svg">
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<div class="loaderArea">
+		<div class="load">
+			<div class="loader-box">
+				<div class="loader"></div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="nav-header-wrap">
+					<div class="navbar-logo">
+						<a href="index.html">
+							<img class="navbar-logo-img" src="images/logo.svg" alt="">
+						</a>
+					</div>
+					<nav>
+						<div class="nav-btn-wrap">
+							<button class="nav-btn nav-btn-open"></button>
+						</div>
+						<ul class="nav-bar nav-bar-menu">
+							<li class="menu-primary">
+								<ul class="site-menu">
+									<li class="menu-item">
+										<a class="menu-item-link" href="catalog.html">Categorie</a>
+									</li>
+									<li class="menu-item">
+										<a class="menu-item-link menu-item-local" href="#login">Marche</a>
+									</li>
+									<li class="menu-item">
+										<a class="menu-item-link menu-item-local" href="#promotions">Promozioni</a>
+									</li>
+									<li class="menu-item">
+										<a class="menu-item-link link-local" href="#contact">Contatti</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-secondary">
+								<ul class="profile-menu">
+									<li class="profile-menu-item">
+										<a class="menu-item-link profile-menu-item-link" href="">
+											<span class="profile-ico icon-user"></span>
+											<p class="profile-text">Login</p>
+										</a>
+									</li>
+									<li class="profile-menu-item">
+										<a class="menu-item-link profile-menu-item-link" href="">
+											<span class="profile-ico icon-cart"></span>
+											<p class="nav-shop-cart">(0)</p>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="navbar-language">
+								<ul class="language-list">
+									<li class="active-language language-item">
+										<a href="" class="menu-item-link navbar-language-link">
+											<img class="navbar-language-icon" src="images/lang/italy.svg" alt="">
+											<p class="language-name">Italia</p>
+										</a>
+									</li>
+									<li class="language-item">
+										<a href="" class="navbar-language-link">
+											<img class="navbar-language-icon" src="images/lang/uk.svg" alt="">
+											<p class="language-name">English</p>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div id="mobNavMenu" class="mob-nav-menu">
+					<div class="nav-btn-wrap">
+						<button class="nav-btn nav-btn-close"></button>
+					</div>
+					<div class="container">
+						<ul class="mob-menu">
+							<li class="menu-item">
+								<a class="menu-item-link" href="catalog.html">Categorie</a>
+							</li>
+							<li class="menu-item">
+								<a class="menu-item-link link-local" href="#login">Marche</a>
+							</li>
+							<li class="menu-item">
+								<a class="menu-item-link link-local" href="#promotions">Promozioni</a>
+							</li>
+							<li class="menu-item">
+								<a class="menu-item-link link-local" href="#contact">Contatti</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section id="intro" class="intro-section catalog-intro-section">
+				<div id="introBackgroung" class="bg-categories bg-ctgr5 bg-ctgr4 bg-ctgr3 bg-ctgr2 bg-ctgr1">
+				</div>
+			</section>
+			<section id="categories" class="categories-section">
+				<div class="categories-nav-wrap">
+					<div class="container">
+						<button id="mobCategoriesNav" class="mob-categories-btn"></button>
+						<ul class="categories-nav" id="categoriesNavTab" role="tablist">
+							<li class="categories-nav-item active">
+								<a class="categories-nav-link" data-bg-order="1" data-toggle="pill" href="#tab-ctgr1">
+									<span class="categories-ico icon-truck1"></span>
+									<span>Camion</span>
+								</a>
+							</li>
+							<li class="categories-nav-item">
+								<a class="categories-nav-link" data-bg-order="2" data-toggle="pill" href="#tab-ctgr2">
+									<span class="categories-ico icon-truck2"></span>
+									<span>Gomme terra</span>
+								</a>
+							</li>
+							<li class="categories-nav-item">
+								<a class="categories-nav-link" data-bg-order="3" data-toggle="pill" href="#tab-ctgr3">
+									<span class="categories-ico icon-truck3"></span>
+									<span>Carrello</span>
+								</a>
+							</li>
+							<li class="categories-nav-item">
+								<a class="categories-nav-link" data-bg-order="4" data-toggle="pill" href="#tab-ctgr4">
+									<span class="categories-ico icon-truck4"></span>
+									<span>Agricoltura</span>
+								</a>
+							</li>
+							<li class="categories-nav-item">
+								<a class="categories-nav-link" data-bg-order="5" data-toggle="pill" href="#tab-ctgr5">
+									<span class="categories-ico icon-truck5"></span>
+									<span>Construction</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section id="catalog" class="catalog-section space-in-section">
+				<div class="container">
+					<div class="catalog-wrapper">
+						<div class="filter-area">
+							<div class="filter-block">
+								<div class="filter-title">
+									<h3>Search by brand or size</h3>
+								</div>
+								<form action="search-action" id="searchForm" class="form search-form">
+									<input type="text" class="input-field input-field-search">
+									<button type="submit" class="btn btn-submit  btn-search">Search</button>
+								</form>
+							</div>
+							<div class="filter-block">
+								<div class="filter-title filter-title-action">
+									<h3>Brand</h3>
+								</div>
+								<ul class="filter-param filter-brand-list">
+									<li class="filter-item">
+										<input id="brand-1" type="checkbox" class="input-check">
+										<label for="brand-1">Michelin (
+											<span class="qualityBrand">51</span>)</label>
+									</li>
+									<li class="filter-item">
+										<input id="brand-2" type="checkbox" class="input-check">
+										<label for="brand-2">Barum (
+											<span class="qualityBrand">28</span>)</label>
+									</li>
+									<li class="filter-item">
+										<input id="brand-3" type="checkbox" class="input-check">
+										<label for="brand-3">Accelera (
+											<span class="qualityBrand">10</span>)</label>
+									</li>
+									<li class="filter-item">
+										<input id="brand-4" type="checkbox" class="input-check">
+										<label for="brand-4">Continental (
+											<span class="qualityBrand">500</span>)</label>
+									</li>
+									<li class="filter-item">
+										<input id="brand-5" type="checkbox" class="input-check">
+										<label for="brand-5">Celt (
+											<span class="qualityBrand">109</span>)</label>
+									</li>
+								</ul>
+							</div>
+							<div class="filter-block">
+								<div class="filter-title filter-title-action">
+									<h3>Size</h3>
+								</div>
+								<div class="filter-param">
+									<div class="filter-size">
+										<div class="select-wrapper">
+											<select name="size" id="full-size" class="select full-size-param">
+												<option class="option" value="hide">Full size</option>
+												<option value="4.00-4">
+													4.00-4 (1)
+												</option>
+												<option value="15x6.00-6">
+													15x6.00-6 (1)
+												</option>
+												<option value="24x7.00-7">
+													24x7.00-7 (1)
+												</option>
+											</select>
+										</div>
+										<div class="select-wrapper">
+											<select name="size" id="portion-size" class="select portion-size-param">
+												<option class="option" value="hide">Portion size</option>
+												<option value="4.00-4">
+													4.00-4 (1)
+												</option>
+												<option value="15x6.00-6">
+													15x6.00-6 (1)
+												</option>
+												<option value="24x7.00-7">
+													24x7.00-7 (1)
+												</option>
+											</select>
+										</div>
+										<div class="select-wrapper">
+											<select name="size" id="inch-size" class="select inch-param">
+												<option class="option" value="hide">Inch</option>
+												<option value="4.00-4">
+													4.00-4 (1)
+												</option>
+												<option value="15x6.00-6">
+													15x6.00-6 (1)
+												</option>
+												<option value="24x7.00-7">
+													24x7.00-7 (1)
+												</option>
+											</select>
+										</div>
+										<form action="search-action" id="searchFormSize" class="form search-form">
+											<input type="text" class="input-field input-field-search">
+											<button type="submit" class="btn btn-submit  btn-search">Search</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="catalog-product-area">
+							<div class="catalog-product-view">
+								<button type="submit" class="btn btn-line-active btn-view btn-view-1"></button>
+								<button type="submit" class="btn btn-line-active btn-view btn-view-2"></button>
+								<div class="sort-by select-wrapper">
+									<select class="select sort" name="sort" id="sort">
+										<option value="hidden">
+											Sort by: </option>
+										<option value="show_measurement-asc">
+											Sort by: Size ascending </option>
+										<option value="show_measurement-desc">
+											Sort by: Size descending </option>
+										<option value="popularity-desc">
+											Sort by: Most popular </option>
+										<option value="popularity-asc">
+											Sort by: Least popular </option>
+										<option value="brand-asc">
+											Sort by: Brand ascending </option>
+										<option value="brand-desc">
+											Sort by: Brand descending </option>
+									</select>
+								</div>
+							</div>
+							<table class="catalog-product-list">
+								<tr class="catalog-product-item">
+									<td class="catalog-product-img-wrap">
+										<img src="images/catalog/product1.jpg" alt="">
+									</td>
+									<td class="catalog-product-content">
+										<div class="catalog-product-info">
+											<p class="catalog-product-name">
+												Name
+											</p>
+											<p class="catalog-product-description">
+												Any information
+											</p>
+										</div>
+										<div class="catalog-product-btn-group">
+											<a href="" class="btn btn-line-active btn-catalog btn-catalog-login">Log in for price / stock</a>
+											<href="" class="btn btn-catalog btn-catalog-more">More info</a>
+										</div>
+									</td>
+								</tr>
+								<tr class="catalog-product-item">
+									<td class="catalog-product-img-wrap">
+										<img src="images/catalog/product1.jpg" alt="">
+									</td>
+									<td class="catalog-product-content">
+										<div class="catalog-product-info">
+											<p class="catalog-product-name">
+												Name
+											</p>
+											<p class="catalog-product-description">
+												Any information
+											</p>
+										</div>
+										<div class="catalog-product-btn-group">
+											<a href="" class="btn btn-line-active btn-catalog btn-catalog-login">Log in for price / stock</a>
+											<a href="" class="btn btn-catalog btn-catalog-more">More info</a>
+										</div>
+									</td>
+								</tr>
+								<tr class="catalog-product-item">
+									<td class="catalog-product-img-wrap">
+										<img src="images/catalog/product1.jpg" alt="">
+									</td>
+									<td class="catalog-product-content">
+										<div class="catalog-product-info">
+											<p class="catalog-product-name">
+												Name
+											</p>
+											<p class="catalog-product-description">
+												Any information
+											</p>
+										</div>
+										<p class="catalog-product-price">500&#036;</p>
+										<div class="catalog-product-btn-group">
+											<a href="" class="btn btn-catalog btn-catalog-more">More info</a>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="footer-wrap">
+					<div id="contact" class="main-footer">
+						<ul class="footer-menu">
+							<li class="footer-menu-item">
+								<h5 class="footer-menu-item-title">Categorie</h5>
+								<ul class="footer-sub-menu">
+									<li>
+										<a href="">Camion</a>
+									</li>
+									<li>
+										<a href="">Gomme terra</a>
+									</li>
+									<li>
+										<a href="">Carrello</a>
+									</li>
+									<li>
+										<a href="">Agricoltura</a>
+									</li>
+									<li>
+										<a href="">Construction</a>
+									</li>
+								</ul>
+							</li>
+							<li class="footer-menu-item">
+								<h5 class="footer-menu-item-title">Altri contenuti</h5>
+								<ul class="footer-sub-menu">
+									<li>
+										<a href="">Gruppo Saccon Gomme</a>
+									</li>
+									<li>
+										<a href="">Promozioni</a>
+									</li>
+									<li>
+										<a href="">Marche</a>
+									</li>
+								</ul>
+							</li>
+							<li class="footer-menu-item">
+								<h5 class="footer-menu-item-title">Social</h5>
+								<ul class="footer-sub-menu social">
+									<li class="social-item">
+										<a class="social-link" href="">
+											<span class="social-ico icon-twitter"></span>
+										</a>
+									</li>
+									<li class="social-item">
+										<a class="social-link" href="">
+											<span class="social-ico icon-linkedin"></span>
+										</a>
+									</li>
+									<li class="social-item">
+										<a class="social-link" href="">
+											<span class="social-ico icon-facebook"></span>
+										</a>
+									</li>
+									<li class="social-item">
+										<a class="social-link" href="">
+											<span class="social-ico icon-instagram"></span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="footer-menu-item">
+								<h5 class="footer-menu-item-title">
+									<img class="navbar-logo-img" src="images/logo.svg" alt="">
+								</h5>
+								<ul class="footer-sub-menu">
+									<li>
+										<p>31010 Ponte della Priula (TV) Italy</p>
+										<p>Via IV Novembre, 95</p>
+									</li>
+									<li>
+										<p>
+											<a href="tel:+39.0438.759658">+39.0438.759658</a>
+										</p>
+										<p>
+											<a href="tel:+39.0438.758540">+39.0438.758540</a>
+										</p>
+									</li>
+									<li>
+										<a href="mailto:info@saccongomme.it">info@saccongomme.it</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="sub-footer">
+						<div class="sub-footer-wrap">
+							<div class="copyright">
+								<p>© 2017 Saccon Gomme Spa</p>
+							</div>
+							<div class="terms">
+								<a class="terms-link" href="">Termini e condizioni</a>
+								<a class="terms-link" href="">Informativa privacy</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
